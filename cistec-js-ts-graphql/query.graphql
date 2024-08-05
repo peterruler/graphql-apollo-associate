@@ -1,0 +1,10 @@
+query ListSpaceCats {
+  spaceCats {
+        name
+        age
+        missions {
+          name 
+          description
+        }
+  }
+}
